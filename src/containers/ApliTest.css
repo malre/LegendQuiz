@@ -1,0 +1,43 @@
+.ApliTest {
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+  
+}
+
+.ApliTest-logo {
+  
+  height: 40vmin;
+  
+}
+.ApliTest-log {
+  display: inline-flex;
+  flex-direction: row;
+  padding : 4em;
+  align-items: center;
+  justify-content: center;
+  height: 18vmin;
+  
+}
+
+.ApliTest-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.ApliTest-link {
+  color: #282c34;
+  flex-direction: column;
+  position: right;
+}
+.ApliTest-link2 {
+  color: #282c34;
+  position: left;
+  flex-direction: column;
+}

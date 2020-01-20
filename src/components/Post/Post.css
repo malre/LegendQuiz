@@ -1,0 +1,87 @@
+.Post {
+    width: auto;
+    padding: 16px;
+  
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    margin: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: aliceblue;
+}
+
+.Post-I {
+    size:contain;
+    width: 25rem;
+    padding: 16px;
+   
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    margin: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.imgThumbnail{
+    position: left;
+    padding:0.30rem;
+    background-color:rgb(117, 28, 105);
+    border:0.01px solid #04182c;
+    border-radius:0.6rem;
+    max-width:45%;
+    height:auto;
+}
+.imgThumbnail:hover{
+    padding:0.65rem;
+    background-color:rgb(68, 96, 146);
+    border:0.021px solid #d326c4;
+    border-radius:0.12rem;
+    max-width:65%;
+    height:auto;
+    transform:rotateY(10deg);
+}
+.Post:hover,
+.Post:active {
+    background-color: #C0DDF5;
+    transform:rotateY(15deg);
+    
+}
+.figure{display:inline-block}
+.figure-img{margin-bottom:.5rem;line-height:1}
+.figure-caption{font-size:90%;color:#6c757d}
+.Author {
+    margin: 16px 0;
+    color: #ccc;
+}
+.card-text{
+    margin:5%;
+    float: right;
+    margin-bottom:.5rem;
+    line-height:1;
+    font-size: 8mm;
+    
+    
+}
+.card-text:hover .card-text-inner{
+    transform:rotateY(180deg);
+}
+.th .td {
+    border-bottom: 1px solid steelblue;
+    box-shadow: 0 2px 3px #ccc;
+}
+
+.div{
+    position :absolute;
+    display:inline-block;
+    padding: 18rem;
+    flex-direction: row;
+
+}
+.card-link:hover{text-decoration:none}
+.card-link+.card-link{margin-left:1.25rem}
+.card-header{
+    padding:.75rem 1.25rem;
+    margin-bottom:0;
+    background-color:rgba(0,0,0,.03);
+    border-bottom:1px solid rgba(0,0,0,.125);
+}

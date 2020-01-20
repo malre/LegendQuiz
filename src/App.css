@@ -1,0 +1,289 @@
+.App {
+  margin: 16px;
+}
+.App2 {
+  margin: 18px;
+}
+.bg-dark {
+  background-color: seashell !important;
+}
+
+.red {
+  opacity: 2;
+  transition: opacity 150s ease-in;
+  color: rgb(0, 255, 136);
+}
+blockquote {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.bold {
+  font-weight: bold;
+  font-style: italic;
+  opacity: 0.4;
+  transition: opacity 200ms;
+}
+.App2-appear {
+  opacity: 0.04;
+}
+.App2-appear.App2-appear-active {
+  opacity: 2;
+  transition: opacity 50s ease-in;
+}
+
+.App2-enter {
+  opacity: 0;
+}
+.App2-enter-active {
+  opacity: 1;
+  transition: opacity 200ms;
+}
+.App2-exit {
+  opacity: 1;
+}
+.App2-exit-active {
+  opacity: 0;
+  transition: opacity 200ms;
+}
+.a  {
+  display: inline-block;
+    margin-right: 10px;
+      color: #abfb61;
+}
+.container {
+  display: block;
+  padding: 40px 0 20px;
+}
+.title {
+    display: flex;
+    align-items: center;
+    margin-bottom: double * 3;
+  }
+h1 {
+   padding: 8px;
+   position: absolute;
+    margin-left: double;
+    display: inline-block;
+    margin-right: 10px;
+      color: #61dafb;
+ }
+ ol{
+   border-block-color: steelblue;
+ }
+ li{
+   display: table-header-group;
+   direction: inherit;
+   flex-direction: column;
+   flex-flow: inherit;
+   text-decoration: none;
+   list-style-type: none;
+   margin: 18px;
+   left: 20px;
+   top: 80px;
+ }
+ li:hover{
+  text-decoration: none;
+  list-style-type: none;
+  margin: 18px;
+  left: 60px;
+  top: 80px;
+  size: 150%;
+}
+
+p {
+    
+    margin-bottom: 20px;
+  }
+  .fade {
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+    }
+ 
+  .fade-enter {
+       opacity: 0.5;
+       z-index: 1;
+       }
+
+  .fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 1 ease-in-out;
+  -moz-transition: opacity 3000ms ease-in-out;
+  -webkit-transition: opacity 21TextTrackCueListms ease-in-out;
+  }
+  .fade-exit {
+    opacity: 1;
+    
+    }
+ 
+    .fade-exit.fade-exit-active {
+       opacity: 0.5;
+       transition: opacity 3000ms linear;
+       }
+
+  .fade-exit-done {
+      opacity: 0.1;
+      }
+
+      nav {
+        background-color: lavender;
+        border-bottom: 0.6rem Solid lightblue;
+        color:black;
+      }
+      
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+          'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+          sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      
+      code {
+        font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+          monospace;
+      }
+      
+      * {
+        box-sizing: border-box;
+      }
+      
+      body {
+        margin: 0;
+        padding: 0;
+        background: #eee;
+        font-family: sans-serif;
+      }
+      
+      .container {
+        position: relative;
+        max-width: 800px;
+        margin: 0 auto;
+        background: #fff;
+        border-radius: 3px;
+      }
+      
+      @media (min-width: 769px) {
+        .container {
+          margin: 2.5rem auto;
+        }
+      }
+      
+      /* Result Component */
+      .result {
+        padding: 1.5rem 2.5rem;
+      }
+      
+      /* Quiz Component */
+      .answerOptions {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        
+      }
+      
+      /* QuestionCount Component */
+      .questionCount {
+        padding: 1.5rem 2.5rem 0;
+        font-size: 14px;
+        color: slateblue;
+      }
+      
+      /* Question Component */
+      .question {
+        margin: 0;
+        padding: 0.5rem 2.5rem 1.5rem 2.5rem;
+        color: steelblue;
+      }
+      
+      /* AnswerOption Component */
+      .answerOption {
+        border-top: 1px solid #eee;
+      }
+      
+      .answerOption:hover {
+        background-color: #eefbfe;
+      }
+      
+      .radioCustomButton {
+        position: absolute;
+        width: auto;
+        opacity: 0;
+      }
+      
+      .radioCustomButton,
+      .radioCustomLabel {
+        display: inline-block;
+        vertical-align: middle;
+        cursor: pointer;
+      }
+      
+      .radioCustomLabel {
+        position: relative;
+        width: 100%;
+        margin: 0;
+        padding: 1.5rem 2.5rem 1.5rem 5rem;
+        font-size: 16px;
+        line-height: 1.5;
+      }
+      
+      .radioCustomButton ~ .radioCustomLabel:before {
+        position: absolute;
+        top: 20px;
+        left: 38px;
+        width: 28px;
+        height: 28px;
+        content: '';
+        display: inline-block;
+        vertical-align: middle;
+        background: #fff;
+        border: 1px solid #bbb;
+        border-radius: 50%;
+        transition: all 0.3s;
+      }
+      
+      .radioCustomButton:checked ~ .radioCustomLabel:before {
+        content: '';
+        background: #8bc53f url(./AnimImg/quizz/svg/icon-check.svg) no-repeat;
+        background-size: 27px;
+        border-color: #8bc53f;
+      }
+ 
+      /* Animation */
+      .fade-enter {
+        opacity: 0;
+      }
+      
+      .fade-enter.fade-enter-active {
+        opacity: 1;
+        transition: opacity 0.5s ease-in-out 0.3s;
+      }
+      
+      .fade-leave {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        opacity: 1;
+      }
+      
+      .fade-leave.fade-leave-active {
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
+      }
+      
+      .fade-appear {
+        opacity: 0;
+      }
+      
+      .fade-appear.fade-appear-active {
+        opacity: 1;
+        transition: opacity 0.5s ease-in-out;
+      }
+      

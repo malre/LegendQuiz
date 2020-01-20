@@ -1,0 +1,80 @@
+.Cockpit {
+    align-items: center;
+    justify-content: center;
+    height: 28px;
+    padding: 16px;
+    justify-content: center;
+    font-size: calc(40px + 2vmin);
+    color: white;
+    
+  }
+  .Cockpit:hover {
+    color: rgb(127, 158, 184);
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(30px + 2vmin);
+    font-style: italic;
+    
+  }
+  .App-log {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    
+  }
+ .red {
+    background-color: #77369534;
+    min-height: 1.6vh;
+    display: flex;
+    height:18px;
+    width:125px;
+    
+ }
+ .bold{
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;  
+ } 
+  .RCockpit {
+    background-color: #6b2c8834;
+    min-height: 6vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    border-bottom: 2px solid #884;
+    font-style: italic;
+    color: white;
+  }
+  .RCockpit:hover {
+    background-color: #4b317a34;
+    min-height: 6vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    border-bottom: 1px solid #884;
+    font-style: initial;
+    color: white;
+  }
+  .Cockpit-red {
+    background-color: #884;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: bold;
+    color: white;
+  }
+
+  .Cockpit-link {
+    color: #09d3ac;
+  }

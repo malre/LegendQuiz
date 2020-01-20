@@ -1,0 +1,58 @@
+{
+  "name": "react-complete-guide",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "homepage": "http://malre.github.io/AerLegend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.7.0",
+    "axios": "^0.19.0",
+    "chart.js": "^2.9.3",
+    "cors": "^2.8.5",
+    "easy-peasy": "^3.2.3",
+    "highlight.js": "^9.17.1",
+    "i18next-browser-languagedetector": "^4.0.1",
+    "jquery": "^3.4.1",
+    "material-ui": "^0.20.2",
+    "particles-bg": "^2.3.12",
+    "peer": "^0.2.10",
+    "prop-types": "^15.7.2",
+    "radium": "^0.26.0",
+    "react": "^16.12.0",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-awesome-button": "^6.3.1",
+    "react-axios": "^2.0.3",
+    "react-chartkick": "^0.4.0",
+    "react-dom": "^16.12.0",
+    "react-facebook-login": "^4.1.1",
+    "react-hover-slideshow": "^1.4.0",
+    "react-image-gallery": "^0.9.1",
+    "react-measurements": "^0.6.8",
+    "react-redux": "^7.1.3",
+    "react-responsive-carousel": "^3.1.51",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "1.0.13",
+    "react-select": "^3.0.8",
+    "react-sky": "^1.1.0",
+    "react-slick": "^0.25.2",
+    "react-sound": "^1.2.0",
+    "react-spring": "^8.0.27",
+    "react-transition-group": "^1.2.1",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^4.4.1",
+    "styletron-react": "^5.2.6"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
