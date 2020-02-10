@@ -1,7 +1,7 @@
 import React from 'react';
-import myImage5 from "./img/IMG_20200210_134632.jpg";
-import myImage6 from './img/Lessat.jpg';
-import myImage8 from './img/IMG_20200210_134710.jpg';
+import myImage5 from "http://fotoforum.fr/photos/2020/02/10.13.jpg";
+import myImage6 from 'http://fotoforum.fr/photos/2020/02/10.14.jpg';
+import myImage8 from 'http://fotoforum.fr/photos/2020/02/10.15.jpg';
 import aux from '../../Hoc/Auxiliary';
 
 const UserOutput = (props) => {
