@@ -15,7 +15,7 @@
     "jquery": "^3.4.1",
     "material-ui": "^0.20.2",
     "particles-bg": "^2.3.12",
-    "peer": "^0.2.10",
+    "peer": "^1.0.0",
     "prop-types": "^15.7.2",
     "radium": "^0.26.0",
     "react": "^16.12.0",
